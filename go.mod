@@ -1,4 +1,4 @@
-module github.com/bshefflette/ldif/v1
+module github.com/bshefflette/ldif
 
 go 1.13
 
