@@ -2,8 +2,9 @@ package ldif
 
 import (
 	"bytes"
-	"gopkg.in/ldap.v3"
 	"testing"
+
+	"github.com/go-ldap/ldap/v3"
 )
 
 var personLDIF = `dn: uid=someone,ou=people,dc=example,dc=org

@@ -1,11 +1,13 @@
+# Fork
+https://github.com/Iljan/ldif
+
 # ldif
 
 Utilities for working with ldif data. This implements most of RFC 2849.
 
 ## Change Entries
 
-Support for moddn / modrdn changes is missing (in Unmarshal and
-Marshal) - gopkg.in/ldap.v2 does not support it currently
+Supports go modules specifically for github.com/go-ldap/ldap/v3
 
 ## Controls
 

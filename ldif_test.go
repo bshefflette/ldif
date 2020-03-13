@@ -1,10 +1,11 @@
 package ldif
 
 import (
-	"gopkg.in/ldap.v3"
 	"io/ioutil"
 	"os"
 	"testing"
+
+	"github.com/go-ldap/ldap/v3"
 )
 
 var ldifRFC2849Example = `version: 1
